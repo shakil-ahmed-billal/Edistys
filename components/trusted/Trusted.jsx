@@ -1,0 +1,62 @@
+
+const Trusted = () => {
+    return (
+        <div className="mt-40">
+            <div className="max-w-[1200px] mx-auto">
+                <p className="text-center text-lg font-bold mb-6">TRUSTED BY THE BEST</p>
+                <div className="flex items-center justify-center gap-10 text-8xl font-bold text-lightBlue">
+                    <p>{">20"}</p><p>40+</p><p>{">200m"}</p>
+                </div>
+                <div className="grid grid-cols-5 gap-10 place-content-center items-center">
+                    <div className="">
+                        <img src="/brand/brand1.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand2.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand3.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand4.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand5.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand6.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand7.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand8.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand9.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand10.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand11.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand12.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand13.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand14.webp" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="/brand/brand15.webp" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Trusted

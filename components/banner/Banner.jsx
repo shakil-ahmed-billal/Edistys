@@ -26,7 +26,7 @@ const Banner = () => {
                 <div className="mt-32 mb-64">
                     <p className='text-7xl font-bold text-[#ffffff]'>Embrace the <br /> future of finance</p>
                     <p className='my-10 text-lg font-bold text-white'>Reimagine financial services with AnyTech’s open platform, distributed <br /> banking solution that powers transformation</p>
-                    <Button size="lg" className="text-lg font-bold py-6 px-10" variant="destructive">Reach out to us</Button>
+                    <Button size="lg" className="text-lg bg-orange font-bold py-6 px-10" variant="destructive">Reach out to us</Button>
                 </div>
                 <Image className='absolute -z-20  right-0' src={"/backgrounds/bg-background.avif"} alt='banner image' width={1041} height={907}></Image>
             </div>

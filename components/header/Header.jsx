@@ -9,13 +9,13 @@ const Header = () => {
                 <div className="">
                     <Image src={"/logo.svg"} alt='Brand Logo' height={28} width={170}></Image>
                 </div>
-                <ul className='flex gap-5 items-center'>
+                <ul className='flex gap-5 items-center text-lg text-white font-bold'>
                     <li><Link href={"/"}>Solutions</Link></li>
                     <li><Link href={"/"}>Services</Link></li>
                     <li><Link href={"/"}>About Us</Link></li>
                 </ul>
                 <div className="">
-                    <Button variant="outline">Contact Us</Button>
+                    <Button className={"bg-transparent text-white text-lg"} variant="outline" size="lg">Contact Us</Button>
                 </div>
             </div>
         </div>
