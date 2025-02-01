@@ -1,3 +1,6 @@
+"use client"
+
+import { motion } from "framer-motion"
 import Image from "next/image"
 
 
@@ -12,13 +15,21 @@ const Future = () => {
                     <p className="font-bold mb-3">AnyTech is revolutionising financial technology by introducing innovative and real-time transaction account processing capabilities, specifically designed for retail financial services.</p>
                     <p>Our modern approach surpasses traditional banking and card processing systems, empowering you with the most advanced technology for lasting success.</p>
                 </div>
-                <div className="future">
+                <motion.div
+                    initial={{ x: 0 }}
+                    animate={{ x: [-30, 30, -30] }}
+                    transition={{
+                        duration: 5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                    }}
+                    className="future">
                     <Image
                         src={"/future.avif"}
                         width={426}
                         height={517}
                     ></Image>
-                </div>
+                </motion.div>
 
             </div>
         </div>

@@ -1,5 +1,7 @@
-import { Button } from "../ui/button"
+"use client"
 
+import { motion } from "framer-motion";
+import { Button } from "../ui/button";
 const Footer = () => {
   return (
     <div className="relative mt-72 ">
@@ -10,8 +12,20 @@ const Footer = () => {
           <Button size="lg" className="text-lg bg-orange font-bold py-6 px-10" variant="destructive">Contact Us</Button>
         </div>
       </div>
-      <div className="bg-darkBlue w-[2200px] -z-50 -left-[100px] h-[500px] absolute rotate-6"></div>
-      <div className="absolute -bottom-[680px] right-0 left-0 ">
+      <div className="bg-darkBlue footer-bg w-[2200px] -z-50 -left-[100px] h-[550px] absolute rotate-6">
+        <motion.div
+          initial={{ x: 0 }}
+          animate={{ x: [-30, 30, -30] }}
+          transition={{
+            duration: 5,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        >
+          <img src="/backgrounds/WaveLinesDesktop4.svg" alt="" />
+        </motion.div>
+      </div>
+      <div className="absolute -bottom-[750px] right-0 left-0 ">
         <div className="bg-[#002045] ">
           <div className="max-w-[1200px] mx-auto py-20 flex justify-between ">
             <div className="">

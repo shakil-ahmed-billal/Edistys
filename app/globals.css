@@ -76,3 +76,7 @@ body {
   background-image:url("/backgrounds/WaveLinesMobile2.svg");
   padding: 70px;
 }
+
+.footer-bg{
+  background-image: url("/backgrounds/WaveLinesDesktop3.svg");
+}
