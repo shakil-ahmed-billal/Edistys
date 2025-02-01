@@ -4,8 +4,13 @@ const Trusted = () => {
         <div className="mt-40">
             <div className="max-w-[1200px] mx-auto">
                 <p className="text-center text-lg font-bold mb-6">TRUSTED BY THE BEST</p>
-                <div className="flex items-center justify-center gap-10 text-8xl font-bold text-lightBlue">
-                    <p>{">20"}</p><p>40+</p><p>{">200m"}</p>
+                <div className="flex items-center justify-center gap-10 text-8xl font-bold text-lightBlue text-center mb-20">
+                    <p>{">20"} <br />
+                        <span className="text-black text-sm">Years of Experience</span></p>
+                    <p>40+ <br />
+                        <span className="text-black text-sm">Years of Experience</span></p>
+                    <p>{">200m"}<br />
+                        <span className="text-black text-sm">Years of Experience</span></p>
                 </div>
                 <div className="grid grid-cols-5 gap-10 place-content-center items-center">
                     <div className="">
