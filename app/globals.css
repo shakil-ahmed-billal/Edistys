@@ -62,3 +62,17 @@ body {
   }
 }
 
+/*
+#000000  black
+#F8FCFF  white
+#FE8B53  orange
+#007EFF  light blue
+#1B76E9  dark-blue
+#B9D9FF  light-color
+*/
+
+.future{
+
+  background-image:url("/backgrounds/WaveLinesMobile2.svg");
+  padding: 70px;
+}
