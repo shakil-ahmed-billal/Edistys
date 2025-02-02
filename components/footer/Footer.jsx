@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="bg-[#00142d]">
           <div className="w-11/12 md:max-w-[1200px] mx-auto py-12 md:flex justify-between text-[#1c7deb]">
-            <p>©2023 All rights reserved. Any Technology Pte Ltd.</p>
+            <p>©2025 All rights reserved. Any Technology Pte Ltd.</p>
             <p>Privacy Policy</p>
           </div>
         </div>
